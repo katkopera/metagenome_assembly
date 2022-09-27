@@ -49,7 +49,7 @@ This step will perform quality control of your reads with `Kneaddata` and assemb
 
  ```sh
  # Process the data
- python src/qc_and_assemble.py -i input_folder -o OUTPUT_DIR -t 8 -c 3 -bt2_index ./GRCh38_bt2
+ python src/qc_and_assembly.py -i input_folder -o OUTPUT_DIR -t 8 -c 3 -bt2_index ./GRCh38_bt2
  ```
 
 ### Then pipeline forks into two branches - taxonomical and functional 
