@@ -28,6 +28,8 @@ The wrapper scripts in Python (located in `src`) will prepare files and send the
  - `git clone www.github.com/crusher083/metagenome_assembly`
 ### 2. Create a conda environment
  - `conda env create -f pipeline.yml`
+ Each time you want to run the pipeline, you have to activate the environment. 
+ - `conda activate pipeline`
 ### 3. Install Cromwell  
 Use the `setup_cromwell.py` script to download and install it.
     - `python src/setup_cromwell.py --save_path SAVE_PATH`
