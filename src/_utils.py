@@ -320,7 +320,7 @@ def prepare_system_variables(argparser, py_script):
     args = vars(argparser.parse_args())
     system_folder = os.path.join(args["output_folder"], "system")
 
-    if not py_script.split("_")[0] == "t1""
+    if not py_script.split("_")[0] == "t1":
         args["input_folder"] = os.path.abspath(args["input_folder"])
     
     # creating output directory
