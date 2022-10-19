@@ -50,7 +50,7 @@ This step will perform quality control of your reads with `Kneaddata` and assemb
 
 ```sh
 # Qualirty control raw reads and assemble contigs 
-python src/qc_and_assemble.py -i INPUT_FOLDER -o OUTPUT_FOLDER \
+python src/qc_and_assembly.py -i INPUT_FOLDER -o OUTPUT_FOLDER \
 -bt2_index FOLDER_WITH_BT2_INDEX \
 -t 8 -c 3 
 ```
