@@ -88,7 +88,7 @@ This step will bin contigs using `MetaBAT2`, check bins for quality and contamin
 ```sh
 # Process the data
 python src/t1_predict_mags.py -ir INPUT_FOLDER_READS -s1 _paired_1.fastq.gz -s2 -s1 _paired_2.fastq.gz \ 
--ic INPUT_FOLDER_CONTIGS -s .min500.contigs.fa \
+-ic INPUT_FOLDER_CONTIGS -sc .min500.contigs.fa \
 -gtdb ../databases/gtdbtk-data/ -o OUTPUT_FOLDER \
 -t 24 -c 2 
 ```
