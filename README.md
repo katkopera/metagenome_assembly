@@ -165,7 +165,7 @@ This step will quantify the number of gene clusters in sequenced reads aligning 
    - `SAMPLE_NAME.geneCPM.txt` - table with extracted and normalized gene counts (count per million).
 ```sh
 # Quantify gene clusters
-python src/f3_generate_gene_catalog.py -i INPUT_FOLDER -s1 _paired_1.fastq.gz -s2 _paired_2.fastq.gz \
+python src/f3_map_to_gene_clusters.py -i INPUT_FOLDER -s1 _paired_1.fastq.gz -s2 _paired_2.fastq.gz \
 -db F2_OUTPUT_FOLDER/kma_db.tar.gz \
 -o OUTPUT_FOLDER \
 -t 16
